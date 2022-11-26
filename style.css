@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.title  {
+    color: #100E34;
+    text-align: center;
+    padding-bottom: 28px;
+}
+
+
+input[type=text] {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.47);
+    width: 644px;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.65);
+    padding-left: 15px;
+    margin-bottom: 28px;
+}
+
+
+input[type=button] {
+    background: #0B8989;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    width: 129px;
+    height: 40px; 
+    cursor: pointer;
+}
+
+
+.tasks {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.task_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.47);
+    width: 644px;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.65);
+    padding: 0 15px;
+    font-size: 26px;
+    color: #100E34;
+
+    margin-bottom: 10px;
+
+}
+
+/* .task_list p{
+    display: inline;
+} */
+.task_list .edit, .task_list .delete {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+
+
+
+
