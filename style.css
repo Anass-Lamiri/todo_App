@@ -19,6 +19,16 @@
     padding-bottom: 28px;
 }
 
+/* mobile breakpoint */
+@media screen and (max-width: 800px) {
+    .container input[type=text] {
+        width: 100%;
+    }
+    .tasks .task_list{
+        width: 100%;
+        font-size: 18px;
+    }
+}
 
 input[type=text] {
     font-size: 20px;
@@ -73,13 +83,17 @@ input[type=button] {
 /* .task_list p{
     display: inline;
 } */
-.task_list .edit, .task_list .delete {
+.task_list .edit, .task_list .delete, .task_list .svg {
     width: 20px;
     height: 20px;
     cursor: pointer;
     margin: 0 2px;
 }
 
+.task_list .svg {
+    filter: invert(20%) sepia(10%) saturate(5902%) hue-rotate(141deg) brightness(96%) contrast(94%);
+    /* display: none; */
+}
 
 
 
