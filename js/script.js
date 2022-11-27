@@ -47,9 +47,9 @@ function showData() {
         task += `<span class="task_list task_list${i}">
             <p class="pa${i}">${arr[i].text}</p>
             <div class="edit_dlt">
-                <img src="/img/edit.png" onclick='editData(${i})' id="edit_btn${i}" class="edit" alt="edit">
-                <img src="/img/delete_icon.png" class="delete" onclick='deleteData(${i})'alt="delete">
-                <img src="/img/icon.svg" class="svg" id="end-editing${i}">
+                <img src="./img/edit.png" onclick='editData(${i})' id="edit_btn${i}" class="edit" alt="edit">
+                <img src="./img/delete_icon.png" class="delete" onclick='deleteData(${i})'alt="delete">
+                <img src="./img/icon.svg" class="svg" id="end-editing${i}">
             </div>
         </span>`
     }
